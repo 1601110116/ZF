@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{9}%
+\begin{thebibliography}{13}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,6 +50,79 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2020)\citenamefont {Li},
+  \citenamefont {Guo},\ and\ \citenamefont {Zhao}}]{Li_2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Guo}}, \ and\
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Zhao}},\ }\href {\doibase
+  10.1088/1361-6587/abc08c} {\bibfield  {journal} {\bibinfo  {journal} {Plasma
+  Physics and Controlled Fusion}\ }\textbf {\bibinfo {volume} {62}},\ \bibinfo
+  {pages} {125018} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Diamond}\ \emph {et~al.}(2005)\citenamefont
+  {Diamond}, \citenamefont {Itoh}, \citenamefont {Itoh},\ and\ \citenamefont
+  {Hahm}}]{Diamond_2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~H.}\ \bibnamefont
+  {Diamond}}, \bibinfo {author} {\bibfnamefont {S.-I.}\ \bibnamefont {Itoh}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Itoh}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {T.~S.}\ \bibnamefont {Hahm}},\ }\href {\doibase
+  10.1088/0741-3335/47/5/r01} {\bibfield  {journal} {\bibinfo  {journal}
+  {Plasma Physics and Controlled Fusion}\ }\textbf {\bibinfo {volume} {47}},\
+  \bibinfo {pages} {R35} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Diamond}\ \emph {et~al.}(2009)\citenamefont
+  {Diamond}, \citenamefont {McDevitt}, \citenamefont {G\"urcan}, \citenamefont
+  {Hahm}, \citenamefont {Wang}, \citenamefont {Yoon}, \citenamefont {Holod},
+  \citenamefont {Lin}, \citenamefont {Naulin},\ and\ \citenamefont
+  {Singh}}]{Diamond_2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Diamond}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {McDevitt}},
+  \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {G\"urcan}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Hahm}}, \bibinfo {author}
+  {\bibfnamefont {W.~X.}\ \bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Yoon}}, \bibinfo {author} {\bibfnamefont
+  {I.}~\bibnamefont {Holod}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Lin}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Naulin}}, \ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Singh}},\ }\href {\doibase 10.1088/0029-5515/49/4/045002} {\bibfield
+  {journal} {\bibinfo  {journal} {Nuclear Fusion}\ }\textbf {\bibinfo {volume}
+  {49}},\ \bibinfo {pages} {045002} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Diamond}\ \emph {et~al.}(2013)\citenamefont
+  {Diamond}, \citenamefont {Kosuga}, \citenamefont {G\"urcan}, \citenamefont
+  {McDevitt}, \citenamefont {Hahm}, \citenamefont {Fedorczak}, \citenamefont
+  {Rice}, \citenamefont {Wang}, \citenamefont {Ku}, \citenamefont {Kwon},
+  \citenamefont {Dif-Pradalier}, \citenamefont {Abiteboul}, \citenamefont
+  {Wang}, \citenamefont {Ko}, \citenamefont {Shi}, \citenamefont {Ida},
+  \citenamefont {Solomon}, \citenamefont {Jhang}, \citenamefont {Kim},
+  \citenamefont {Yi}, \citenamefont {Ko}, \citenamefont {Sarazin},
+  \citenamefont {Singh},\ and\ \citenamefont {Chang}}]{Diamond_2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Diamond}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Kosuga}},
+  \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {G\"urcan}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {McDevitt}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Hahm}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Fedorczak}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Rice}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ku}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Kwon}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Dif-Pradalier}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Abiteboul}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Ko}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Shi}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Ida}}, \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {Solomon}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Jhang}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Kim}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Yi}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ko}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Sarazin}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Singh}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Chang}},\ }\href {\doibase
+  10.1088/0029-5515/53/10/104019} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nuclear Fusion}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo {pages}
+  {104019} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lang}\ \emph {et~al.}(2019)\citenamefont {Lang},
   \citenamefont {Guo}, \citenamefont {Wang},\ and\ \citenamefont
   {Li}}]{PhysRevE.100.033212}%
