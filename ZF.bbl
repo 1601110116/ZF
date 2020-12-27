@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{13}%
+\begin{thebibliography}{21}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -123,6 +123,111 @@
   10.1088/0029-5515/53/10/104019} {\bibfield  {journal} {\bibinfo  {journal}
   {Nuclear Fusion}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo {pages}
   {104019} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chakraborty~Thakur}\ \emph
+  {et~al.}(2013)\citenamefont {Chakraborty~Thakur}, \citenamefont {Xu},
+  \citenamefont {Manz}, \citenamefont {Fedorczak}, \citenamefont {Holland},\
+  and\ \citenamefont {Tynan}}]{Thakur_2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Chakraborty~Thakur}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Xu}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Manz}}, \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {Fedorczak}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Holland}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.~R.}\ \bibnamefont {Tynan}},\ }\href {\doibase
+  10.1063/1.4775775} {\bibfield  {journal} {\bibinfo  {journal} {Physics of
+  Plasmas}\ }\textbf {\bibinfo {volume} {20}},\ \bibinfo {pages} {012304}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Xu}\ \emph {et~al.}(2010)\citenamefont {Xu},
+  \citenamefont {Tynan}, \citenamefont {Holland}, \citenamefont {Yan},
+  \citenamefont {Muller},\ and\ \citenamefont {Yu}}]{Xu_2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Xu}}, \bibinfo {author} {\bibfnamefont {G.~R.}\ \bibnamefont {Tynan}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Holland}}, \bibinfo
+  {author} {\bibfnamefont {Z.}~\bibnamefont {Yan}}, \bibinfo {author}
+  {\bibfnamefont {S.~H.}\ \bibnamefont {Muller}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~H.}\ \bibnamefont {Yu}},\ }\href {\doibase
+  10.1063/1.3325397} {\bibfield  {journal} {\bibinfo  {journal} {Physics of
+  Plasmas}\ }\textbf {\bibinfo {volume} {17}},\ \bibinfo {pages} {032311}
+  (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hajjar}\ \emph {et~al.}(2018)\citenamefont {Hajjar},
+  \citenamefont {Diamond},\ and\ \citenamefont {Tynan}}]{Hajjar_2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont
+  {Hajjar}}, \bibinfo {author} {\bibfnamefont {P.~H.}\ \bibnamefont {Diamond}},
+  \ and\ \bibinfo {author} {\bibfnamefont {G.~R.}\ \bibnamefont {Tynan}},\
+  }\href {\doibase 10.1063/1.5018320} {\bibfield  {journal} {\bibinfo
+  {journal} {Physics of Plasmas}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo
+  {pages} {022301} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cui}\ \emph {et~al.}(2016)\citenamefont {Cui},
+  \citenamefont {Ashourvan}, \citenamefont {Thakur}, \citenamefont {Hong},
+  \citenamefont {Diamond},\ and\ \citenamefont {Tynan}}]{Cui_2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Cui}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Ashourvan}},
+  \bibinfo {author} {\bibfnamefont {S.~C.}\ \bibnamefont {Thakur}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Hong}}, \bibinfo {author}
+  {\bibfnamefont {P.~H.}\ \bibnamefont {Diamond}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.~R.}\ \bibnamefont {Tynan}},\ }\href {\doibase
+  10.1063/1.4944819} {\bibfield  {journal} {\bibinfo  {journal} {Physics of
+  Plasmas}\ }\textbf {\bibinfo {volume} {23}},\ \bibinfo {pages} {055704}
+  (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Xu}\ \emph {et~al.}(2009)\citenamefont {Xu},
+  \citenamefont {Tynan}, \citenamefont {Holland}, \citenamefont {Yan},
+  \citenamefont {Muller},\ and\ \citenamefont {Yu}}]{Xu_2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Xu}}, \bibinfo {author} {\bibfnamefont {G.~R.}\ \bibnamefont {Tynan}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Holland}}, \bibinfo
+  {author} {\bibfnamefont {Z.}~\bibnamefont {Yan}}, \bibinfo {author}
+  {\bibfnamefont {S.~H.}\ \bibnamefont {Muller}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~H.}\ \bibnamefont {Yu}},\ }\href {\doibase
+  10.1063/1.3098538} {\bibfield  {journal} {\bibinfo  {journal} {Physics of
+  Plasmas}\ }\textbf {\bibinfo {volume} {16}},\ \bibinfo {pages} {042312}
+  (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Holland}\ \emph
+  {et~al.}(2006{\natexlab{a}})\citenamefont {Holland}, \citenamefont {Yu},
+  \citenamefont {James}, \citenamefont {Nishijima}, \citenamefont {Shimada},
+  \citenamefont {Taheri},\ and\ \citenamefont {Tynan}}]{Holland_2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Holland}}, \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Yu}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {James}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Nishijima}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Shimada}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Taheri}}, \ and\ \bibinfo {author} {\bibfnamefont {G.~R.}\
+  \bibnamefont {Tynan}},\ }\href {\doibase 10.1103/PhysRevLett.96.195002}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {96}},\ \bibinfo {pages} {195002} (\bibinfo {year}
+  {2006}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yan}\ \emph {et~al.}(2008{\natexlab{a}})\citenamefont
+  {Yan}, \citenamefont {Yu}, \citenamefont {Holland}, \citenamefont {Xu},
+  \citenamefont {Müller},\ and\ \citenamefont {Tynan}}]{Yan_2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Yan}}, \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Yu}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Holland}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Xu}}, \bibinfo {author}
+  {\bibfnamefont {S.~H.}\ \bibnamefont {Müller}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.~R.}\ \bibnamefont {Tynan}},\ }\href {\doibase
+  10.1063/1.2985836} {\bibfield  {journal} {\bibinfo  {journal} {Physics of
+  Plasmas}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages} {092309}
+  (\bibinfo {year} {2008}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yan}\ \emph {et~al.}(2010{\natexlab{a}})\citenamefont
+  {Yan}, \citenamefont {Xu}, \citenamefont {Diamond}, \citenamefont {Holland},
+  \citenamefont {M\"uller}, \citenamefont {Tynan},\ and\ \citenamefont
+  {Yu}}]{Yan_2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Yan}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Xu}}, \bibinfo
+  {author} {\bibfnamefont {P.~H.}\ \bibnamefont {Diamond}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Holland}}, \bibinfo {author} {\bibfnamefont
+  {S.~H.}\ \bibnamefont {M\"uller}}, \bibinfo {author} {\bibfnamefont {G.~R.}\
+  \bibnamefont {Tynan}}, \ and\ \bibinfo {author} {\bibfnamefont {J.~H.}\
+  \bibnamefont {Yu}},\ }\href {\doibase 10.1103/PhysRevLett.104.065002}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {104}},\ \bibinfo {pages} {065002} (\bibinfo {year}
+  {2010}{\natexlab{a}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lang}\ \emph {et~al.}(2019)\citenamefont {Lang},
   \citenamefont {Guo}, \citenamefont {Wang},\ and\ \citenamefont
   {Li}}]{PhysRevE.100.033212}%
@@ -151,8 +256,8 @@
   {journal} {\bibinfo  {journal} {Plasma Physics and Controlled Fusion}\
   }\textbf {\bibinfo {volume} {54}},\ \bibinfo {pages} {124047} (\bibinfo
   {year} {2012})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Yan}\ \emph {et~al.}(2008)\citenamefont {Yan},
-  \citenamefont {Yu}, \citenamefont {Holland}, \citenamefont {Xu},
+\bibitem [{\citenamefont {Yan}\ \emph {et~al.}(2008{\natexlab{b}})\citenamefont
+  {Yan}, \citenamefont {Yu}, \citenamefont {Holland}, \citenamefont {Xu},
   \citenamefont {Müller},\ and\ \citenamefont
   {Tynan}}]{doi:10.1063/1.2985836}%
   \BibitemOpen
@@ -164,11 +269,11 @@
   {\bibfnamefont {G.~R.}\ \bibnamefont {Tynan}},\ }\href {\doibase
   10.1063/1.2985836} {\bibfield  {journal} {\bibinfo  {journal} {Physics of
   Plasmas}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages} {092309}
-  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Holland}\ \emph {et~al.}(2006)\citenamefont
-  {Holland}, \citenamefont {Yu}, \citenamefont {James}, \citenamefont
-  {Nishijima}, \citenamefont {Shimada}, \citenamefont {Taheri},\ and\
-  \citenamefont {Tynan}}]{PhysRevLett.96.195002}%
+  (\bibinfo {year} {2008}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Holland}\ \emph
+  {et~al.}(2006{\natexlab{b}})\citenamefont {Holland}, \citenamefont {Yu},
+  \citenamefont {James}, \citenamefont {Nishijima}, \citenamefont {Shimada},
+  \citenamefont {Taheri},\ and\ \citenamefont {Tynan}}]{PhysRevLett.96.195002}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
   {Holland}}, \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Yu}},
@@ -179,8 +284,8 @@
   \bibnamefont {Tynan}},\ }\href {\doibase 10.1103/PhysRevLett.96.195002}
   {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
   {\bibinfo {volume} {96}},\ \bibinfo {pages} {195002} (\bibinfo {year}
-  {2006})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Yan}\ \emph {et~al.}(2010{\natexlab{a}})\citenamefont
+  {2006}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yan}\ \emph {et~al.}(2010{\natexlab{b}})\citenamefont
   {Yan}, \citenamefont {Xu}, \citenamefont {Diamond}, \citenamefont {Holland},
   \citenamefont {M\"uller}, \citenamefont {Tynan},\ and\ \citenamefont
   {Yu}}]{PhysRevLett.104.065002}%
@@ -194,7 +299,7 @@
   \bibnamefont {Yu}},\ }\href {\doibase 10.1103/PhysRevLett.104.065002}
   {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
   {\bibinfo {volume} {104}},\ \bibinfo {pages} {065002} (\bibinfo {year}
-  {2010}{\natexlab{a}})}\BibitemShut {NoStop}%
+  {2010}{\natexlab{b}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Thakur}\ \emph {et~al.}(2014)\citenamefont {Thakur},
   \citenamefont {Brandt}, \citenamefont {Cui}, \citenamefont {Gosselin},
   \citenamefont {Light},\ and\ \citenamefont {Tynan}}]{Thakur_2014}%
@@ -215,7 +320,7 @@
   {\bibinfo  {journal} {The Physics of Fluids}\ }\textbf {\bibinfo {volume}
   {15}},\ \bibinfo {pages} {1590} (\bibinfo {year} {1972})}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Yan}\ \emph {et~al.}(2010{\natexlab{b}})\citenamefont
+\bibitem [{\citenamefont {Yan}\ \emph {et~al.}(2010{\natexlab{c}})\citenamefont
   {Yan}, \citenamefont {Tynan}, \citenamefont {Holland}, \citenamefont {Xu},
   \citenamefont {Müller},\ and\ \citenamefont {Yu}}]{doi:10.1063/1.3322823}%
   \BibitemOpen
@@ -227,7 +332,7 @@
   {\bibfnamefont {J.~H.}\ \bibnamefont {Yu}},\ }\href {\doibase
   10.1063/1.3322823} {\bibfield  {journal} {\bibinfo  {journal} {Physics of
   Plasmas}\ }\textbf {\bibinfo {volume} {17}},\ \bibinfo {pages} {032302}
-  (\bibinfo {year} {2010}{\natexlab{b}})},\ \Eprint
+  (\bibinfo {year} {2010}{\natexlab{c}})},\ \Eprint
   {http://arxiv.org/abs/https://doi.org/10.1063/1.3322823}
   {https://doi.org/10.1063/1.3322823} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nie}\ \emph {et~al.}(2018)\citenamefont {Nie},
