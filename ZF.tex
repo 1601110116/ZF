@@ -1,8 +1,8 @@
 
-\documentclass[aps,pre,twocolumn,superscriptaddress]{revtex4-1}
+\documentclass[aps,pre,twocolumn,superscriptaddress]{revtex4-2}
 
 
-\bibliographystyle{apsrev4-1}
+\bibliographystyle{apsrev4-2}
 \usepackage[colorlinks,linkcolor=blue,anchorcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
 
 
@@ -26,7 +26,7 @@ Generation of plasma zonal flow shear by finite parallel wave length density flu
 
 \author{Y. Lang}
 \author{Z.B. Guo}
-\email[E-mail:]{ylang@pku.edu.cn}
+\email[E-mail:]{zbguo@pku.edu.cn}
 \affiliation{
 School of Physics and State Key Lab of Nuclear Physics and Technology, 
 Peking University, Beijing 100871, China
@@ -42,25 +42,27 @@ A possible zonal flow shear generation mechanism by drift wave turbulence in a c
 
 
 \section{\label{sec:introduction}introduction}
-The generation of zonal flow (ZF) in magnetically confined plasma is of great interest, since it can impact the instabilities and turbulence and thus transport, especially at the edge of tokamaks \cite{Li_2020}. Through nonlinear interactions, energy can be transferred from drift waves (DW) to ZF \cite{Diamond_2005}. Whereas the mechanism of turbulent momentum transport, especially through the Reynolds stress term in the stress tensor, is extensively studied, other mechanisms can also be important in certain conditions \cite{Diamond_2009, Diamond_2013}.
+The generation of zonal flow (ZF) in magnetically confined plasma is of wide interest, since it can impact the instabilities and turbulence and thus transport, especially at the edge of tokamaks \cite{Li_2020}. Through nonlinear interactions, energy can be transferred from drift waves (DW) to ZF \cite{Diamond_2005}. Whereas the mechanism of turbulent momentum transport, especially through the Reynolds stress term in the stress tensor, is extensively studied, other mechanisms can also be important in certain conditions \cite{Diamond_2009, Diamond_2013}.
 
 For the study of ZF generation by collisional drift waves (CDW), the Controlled Shear Decorrelation Experiment (CSDX) with insulating endplates \cite{Thakur_2013} is a promising testbed, in that it is a simple drift wave-zonal flow system \cite{Xu_2010, Hajjar_2018} in uniform magnetic field and shares many similar scaling properties with tokamak boundaries \cite{Cui_2016}. Experiments on CSDX find nonlinear kinetic energy transfer from weak CDW turbulence to ZF \cite{Xu_2009, Xu_2010} and ZF driven by Reynolds force \cite{Holland_2006,Yan_2008,Yan_2010}. These works explains ZF generations in CSDX, with systematic sources of error, such as the neglect of electron temperature fluctuations in converting floating potential measured by Langmuir probes to plasma potential, which is used to calculate electric field and fluid velocity \cite{Holland_2006,Xu_2009}. Consequently, it can be helpful to do similar analysis in simulations.
 
+Recently two 3D codes based on drift-reduced two-fluid cold-ion equations have focused on the simulations of CSDX $B=1000$ G insulating end-plates discharges \cite{Vaezi_2017V, Lang_2019} and compared to experimental observations. The code under BOUndary Turbulence (BOUT++) framework \cite{Vaezi_2017V} show considerable difference between actual (using plasma potential) and synthetic (using floating potential) Reynolds stress in the simulations, but do not quantitatively analyze the ZF generation in their simulations. In this paper, based on our flux-driven simulation \cite{Lang_2019}, we do detailed analysis on ZF generation in our simulated system.  
 
-
-
-
-For the theoretical analysis and simulation studies, we use exactly the same model as in \cite{PhysRevE.100.033212}, except doubling the perpendicular spacial resolution 
-for a more accurate analysis. In the absence of viscosity and ion-neutral collision, the vorticity equation for the plasma confined by uniform magnetic field $B\hat{\bm{z}}$ 
-is $\nabla\cdot\bm{j}_{pol}+\nabla_{\parallel}j_{\parallel}=0$, i.e.
+\section{\label{sec:theoretical model}theoretical model}
+The system we are interested is a cylindrical plasma column in a uniform magnetic field $\bm{B}=B\hat{\bm{z}}$. The equilibrium of a given scalar field is its zonal average $\left<f\right>\equiv\int_{0}^{L_{\parallel}}\int_{0}^{2\pi}f \left(r,\theta,z\right)d\theta dz$ and its fluctuation is $\delta f\equiv f-\left<f\right>$, where $L_{\parallel}$ is the parallel wavelength of the DW. We use cold-ion and low-$\beta$ limit, so ion temperature and magnetic perturbations are neglected.
+\subsection{\label{subsec:vorticity equation}vorticity equation}
+The drift-reduce two-fluid vorticity equation comes from the continuity equations and quasi-neutrality, with the form of charge conservation \cite{Zeiler_1997}
 \begin{equation}
-	\frac{ec}{B\Omega_{i}}\nabla\cdot\left(nd_{t}\nabla_{\perp}\phi\right)
-=\nabla_{\parallel}j_{\parallel}~.
-\label{eq:continuity}
+	\nabla\cdot\left(n\bm{v}_{p}\right)+\nabla_{\parallel}j_{\parallel}=0~,
+\label{eq:original vorticity}
 \end{equation}
-Where $d_{t}\equiv\partial_{t}+\bm{v}_{E}\cdot\nabla$ is the total time derivative and $\Omega_{i}\equiv eB/\left(m_{i}c\right)$ is the ion gyro-frequency. The Boussinesq approximation \cite{Ricci_2012} can be used to simplify the divergence of perpendicular current
+where 
 \begin{equation}
-	\nabla\cdot\left(nd_{t}\nabla_{\perp}\phi\right)=nd_{t}\nabla_{\perp}^{2}\phi~,
+	\bm{v}_{p}=-\frac{ec}{B\Omega_{i}}d_t\nabla_{\perp}\phi
+\end{equation}
+is the ion polarization drift. $\Omega_{i}\equiv eB/\left(m_{i}c\right)$ is the constant ion gyro-frequency. $d_{t}\equiv\partial_{t}+\bm{v}_{E}\cdot\nabla$ is the total time derivative. In this paper we adopt Boussinesq approximation \cite{Ricci_2012} to simplify the divergence of perpendicular current
+\begin{equation}
+	\nabla\cdot\left(nd_{t}\nabla_{\perp}\phi\right)\approx nd_{t}\nabla_{\perp}^{2}\phi~,
 \label{eq:Boussinesq}
 \end{equation}
 which allows us to define vorticity by
@@ -68,7 +70,19 @@ which allows us to define vorticity by
 	w\hat{\bm{z}}\equiv\nabla\times\bm{v}_{E}
 	=\frac{c}{B}\nabla_{\perp}^{2}\phi\hat{\bm{z}}~.
 \end{equation}
-The vorticity equation \Cref{eq:continuity} is thus
+Discussions about gyro-fluid non-Boussinesq ZF generation can be found \cite{Held_2018}. The zonal average of vorticity equation \cref{eq:original vorticity} is thus
+\begin{equation}
+\begin{aligned}
+	\left<n\right>\partial_{t}\left<w\right>=&-\left<n\right>\left<\delta\bm{v}_{E}\cdot\nabla\delta w\right> \\
+	&-\left<\delta n\left(\partial_{t}+\left<v_{E,\theta}\right>\frac{1}{r}\partial_{\theta}\right)\delta w\right> \\
+	&+\left<\delta n\delta\bm{v}_{E}\cdot\nabla w\right>~.
+\end{aligned}
+\end{equation}
+The first term on the right hand side (RHS) is the divergence of vorticity flux, which is the contribution of perpendicular Reynolds force to ZF, by the Taylor identity \cite{Li_2018,Diamond_1991}. This ZF generation mechanism has been extensively studied on CSDX \cite{Holland_2006,Yan_2008,Yan_2010,Thakur_2018} and is the only mechanism in Hasegawa-Wakatani systems \cite{Hasegawa_1983,Hajjar_2018}. The second term on the RHS can be neglected only when density fluctuations are small, i.e.
+\begin{equation}
+	\frac{\delta n}{\left<n\right>}\ll\frac{\omega_{nl}}{\omega},
+\end{equation}
+where $\omega_{nl}\equiv\delta\bm{v}_E\cdot\nabla$ is the nonlinear frequency and $\omega\equiv\partial_{t}+\left<v_{E,\theta}\right>\left(1/r\right)\partial_{\theta}$ is the DW frequency Doppler shifted by ZF. If this condition is not satisfied, we have to retain density fluctuation in the ion polarization current in \cref{eq:original vorticity}. Including ion-ion collisional viscosity $\mu_{\perp}$ and ion-neutral drag $\nu_{i,n}$ \cite{Vaezi_2017U}, the vorticity equation we use in our simulation \cite{Lang_2019} is
 \begin{equation}
 	\partial_{t}w=-\bm{v}_{E}\cdot\nabla w
 	+\frac{\Omega_{i}}{e}\frac{1}{n}\nabla_{\parallel}j_{\parallel}~.
