@@ -13,7 +13,10 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ZFNotes.bib
 Database file #2: ZF.bib
+Warning--I didn't find a database entry for "PhysRevLett.104.065002"
+Warning--I didn't find a database entry for "doi:10.1063/1.3322823"
 Warning--I didn't find a database entry for "PhysRevE.100.033212"
+Warning--I didn't find a database entry for "doi:10.1063/1.2985836"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
@@ -26,43 +29,43 @@ Control: year (1) truncated
 Control: production of eprint (0) enabled
 You've used 29 entries,
             6079 wiz_defined-function locations,
-            1863 strings with 22086 characters,
-and the built_in function-call counts, 39602 in all, are:
-= -- 2432
-> -- 1399
-< -- 246
-+ -- 429
-- -- 358
-* -- 6591
-:= -- 3442
+            1888 strings with 22945 characters,
+and the built_in function-call counts, 39250 in all, are:
+= -- 2425
+> -- 1378
+< -- 243
++ -- 420
+- -- 352
+* -- 6500
+:= -- 3422
 add.period$ -- 29
 call.type$ -- 29
 change.case$ -- 116
-chr.to.int$ -- 24
+chr.to.int$ -- 27
 cite$ -- 29
-duplicate$ -- 3398
-empty$ -- 2691
-format.name$ -- 807
-if$ -- 8190
-int.to.chr$ -- 6
+duplicate$ -- 3368
+empty$ -- 2669
+format.name$ -- 795
+if$ -- 8122
+int.to.chr$ -- 3
 int.to.str$ -- 37
-missing$ -- 527
+missing$ -- 524
 newline$ -- 139
 num.names$ -- 87
-pop$ -- 1299
+pop$ -- 1291
 preamble$ -- 1
 purify$ -- 145
 quote$ -- 0
 skip$ -- 1619
 stack$ -- 0
 substring$ -- 898
-swap$ -- 3577
-text.length$ -- 179
+swap$ -- 3532
+text.length$ -- 176
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 498
+type$ -- 495
 warning$ -- 0
 while$ -- 87
 width$ -- 0
-write$ -- 285
-(There was 1 warning)
+write$ -- 284
+(There were 4 warnings)
